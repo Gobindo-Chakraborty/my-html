@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Gobindo Chakraborty" />
+    <meta
+      name="description"
+      content="This page shows how to learn html in my own way with dave gray my sir for here."
+    />
+    <title>My Webpage</title>
+    <link rel="icon" href="./assets/Favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="tempora.html">Welcome Page</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article id="contact">
+        <p>This is a sample of contact form</p>
+        <form action="https://httpbin.org/get" method="get">
+          <fieldset>
+            <legend>Personal Info :</legend>
+            <label for="firstName">First Name :</label>
+            <input
+              type="text"
+              name="firstName"
+              id="firstName"
+              placeholder="Jane"
+              autocomplete="on"
+              required
+              autofocus
+            />
+            <br /><br />
+            <label for="lastName">Last Name :</label>
+            <input
+              type="text"
+              name="lastName"
+              id="lastName"
+              placeholder="Doe"
+              autocomplete="on"
+              required
+            />
+            <br /><br />
+            <label for="password">Password :</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Your Password"
+              autocomplete="on"
+              required
+            />
+            <br /><br />
+            <label for="phone">Phone Number :</label>
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              placeholder="555-555-55555"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{5}"
+              autocomplete="on"
+              required
+            />
+            <br /><br />
+            <label for="decade">Favourite Year :</label>
+            <input
+              type="number"
+              name="decade"
+              id="decade"
+              value="1980"
+              min="1950"
+              max="2020"
+              step="10"
+            />
+            <br /><br />
+            <label for="coffee">Recommend a Coffee : </label>
+            <select name="coffee" id="coffee">
+              <!--attr: multiple, size="3 or ..."-->
+              <optgroup label="Popular items :">
+                <option value="regular coffee">Regular coffee</option>
+                <option value="iced coffee" selected>Iced coffee</option>
+              </optgroup>
+              <optgroup label="New items :">
+                <option value="dark coffee">Dark coffee</option>
+              </optgroup>
+            </select>
+            <br /><br />
+            <label for="country">Your Country : </label>
+            <input
+              type="text"
+              name="country"
+              id="country"
+              list="country-list"
+            />
+            <datalist id="country-list">
+              <option value="Bangladesh"></option>
+              <option value="USA"></option>
+              <option value="Russia"></option>
+              <option value="South Africa"></option>
+            </datalist>
+            <br /><br />
+            <fieldset>
+              <legend>What is your favourite food ?</legend>
+              <p>
+                <input type="radio" name="food" id="tacos" value="tacos" />
+                <label for="tacos">Tacos</label>
+              </p>
+              <p>
+                <input type="radio" name="food" id="pizza" value="pizza" />
+                <label for="pizza">Pizza</label>
+              </p>
+              <p>
+                <input type="radio" name="food" id="other" value="other" />
+                <label for="other">Other</label>
+              </p>
+            </fieldset>
+            <br /><br />
+            <fieldset>
+              <legend>What is your favourite pets?</legend>
+              <p>
+                <input type="checkbox" id="dog" name="pets" value="dog" />
+                <label for="dog">Dog</label>
+              </p>
+              <p>
+                <input type="checkbox" name="pets" id="cat" value="cat" />
+                <label for="cat">Cat</label>
+              </p>
+              <p>
+                <input type="checkbox" name="pets" id="other" value="other" />
+                <label for="other">Other</label>
+              </p>
+            </fieldset>
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <fieldset>
+              <legend>Send me message</legend>
+              <label for="message">Your message :</label>
+              <br />
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Type your message here ..."
+              ></textarea>
+            </fieldset>
+          </fieldset>
+          <br />
+          <button type="submit">Submit</button>
+          <button
+            type="submit"
+            formaction="https://httpbin.org/post"
+            formmethod="post"
+          >
+            Submit as Post
+          </button>
+          <button type="reset">Reset</button>
+        </form>
+      </article>
+    </main>
+  </body>
+</html>

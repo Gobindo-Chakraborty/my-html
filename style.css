@@ -1,0 +1,51 @@
+html {
+  background-color: #23272e;
+  color: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 500px;
+  padding-inline: 20px;
+  margin: 0 auto;
+  position: relative;
+  box-sizing: border-box;
+  height: 100%;
+}
+body::before,
+body::after {
+  content: "";
+  width: 1px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+body::before {
+  left: -20px; /* line one */
+}
+body::after {
+  right: -20px; /* line two */
+}
+a {
+  color: aliceblue;
+}
+a:visited {
+  color: lightgray;
+}
+a:hover,
+a:active {
+  color: #eee;
+}
+table,
+tr,
+td,
+th,
+caption {
+  border: 1px solid green;
+  border-collapse: collapse;
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
